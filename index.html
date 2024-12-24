@@ -79,7 +79,6 @@
                 <p class="game-description">מגי סיט-אפ בסטנדאפ</p>
             </a>
         </li>
-
         <li class="game-item">
             <a href="game_url.html" target="_blank">
                 <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Mag_Nurs.png?raw=true" alt="Nursery">
@@ -88,13 +87,25 @@
             </a>
         </li>
 
-        <li class="game-item">
-            <a href="game_url.html" target="_blank">
-                <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/HK_CAFE.png?raw=true" alt="HK Cafe">
-                <span class="game-name">HK Cafe</span>
-                <p class="game-description">מגי במסעדת מזון מהיר</p>
-            </a>
-        </li>
+<a href="javascript:void(0);" onclick="openGame();">
+            <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/HK_CAFE.png?raw=true" alt="HK Cafe">
+            <span class="game-name">HK Cafe</span>
+            <p class="game-description">מגי במסעדת מזון מהיר</p>
+        </a>
+    </li>
+</ul>
+
+<div id="gameContainer" style="display:none; width: 100%; height: 600px;">
+    <iframe src="https://es.y8.com/games/hk_cafe" width="100%" height="100%"></iframe>
+</div>
+
+<script>
+    function openGame() {
+        // הצגת ה-iframe עם המשחק
+        var gameContainer = document.getElementById('gameContainer');
+        gameContainer.style.display = 'block';  // הופך את ה-iframe לגלוי
+    }
+</script>
 
         <li class="game-item">
             <a href="game_url.html" target="_blank">
