@@ -6,17 +6,48 @@
   <title>המשחקים הרשמיים של ברבי</title>
   <style>
     body {
+      background-color: #3c1e6b; /* רקע סגול כהה */
+      color: white;
       font-family: Arial, sans-serif;
-      background-color: #2e003e;
-      color: #ffffff;
+      margin: 0;
+      padding: 0;
       text-align: center;
     }
-    .game {
-      margin: 20px;
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
     }
-    img {
-      border: 2px solid #ffffff;
-      border-radius: 8px;
+    h1 {
+      font-size: 2.5em;
+      margin-top: 30px;
+    }
+    .game-list {
+      list-style: none;
+      padding: 0;
+    }
+    .game-item {
+      margin: 20px;
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+      background-color: #532b7f; /* סגול מעט יותר בהיר לכרטיסים */
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .game-item img {
+      width: 150px;
+      height: 150px;
+      border-radius: 5px;
+    }
+    .game-item b {
+      font-size: 1.2em;
+      display: block;
+      margin-top: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
     }
   </style>
 </head>
@@ -24,32 +55,34 @@
   <h1>המשחקים הרשמיים של ברבי</h1>
   <p>בחרו משחק מתוך הרשימה:</p>
 
-  <div class="game">
-    <b>ברבי ריקוד</b>
-    <a href="https://www.numuki.com/game/dance-with-barbie/" target="_blank">
-      <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_dance.png?raw=true" alt="ברבי ריקוד" width="150" height="150">
-    </a>
-  </div>
+  <div class="container">
+    <div class="game-item">
+      <b>ברבי ריקוד</b>
+      <a href="https://www.numuki.com/game/dance-with-barbie/" target="_blank">
+        <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_dance.png?raw=true" alt="ברבי ריקוד">
+      </a>
+    </div>
 
-  <div class="game">
-    <b>טיפוח חיות מחמד</b>
-    <a href="https://www.numuki.com/game/barbie-zoom-and-groom/" target="_blank">
-      <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_pets.jpg?raw=true" alt="ברבי טיפוח חיות מחמד" width="150" height="150">
-    </a>
-  </div>
+    <div class="game-item">
+      <b>טיפוח חיות מחמד</b>
+      <a href="https://www.numuki.com/game/barbie-zoom-and-groom/" target="_blank">
+        <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_pets.jpg?raw=true" alt="ברבי טיפוח חיות מחמד">
+      </a>
+    </div>
 
-  <div class="game">
-    <b>בייביסיטר לבייבי קריסי</b>
-    <a href="https://www.numuki.com/game/let-s-baby-sit-baby-krissy/" target="_blank">
-      <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Baby_krisy.png?raw=true" alt="קריסי בייביסיטר" width="150" height="150">
-    </a>
-  </div>
-  
-    <div class="game">
-    <b>ברבי חדר גיימינג</b>
-    <a href="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_room.png?raw=true" target="_blank">
-      <img src="images/barbie-cooking.jpg" alt="ברבי חדר גיימינג" width="150" height="150">
-    </a>
+    <div class="game-item">
+      <b>בייביסיטר לבייבי קריסי</b>
+      <a href="https://www.numuki.com/game/let-s-baby-sit-baby-krissy/" target="_blank">
+        <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Baby_krisy.png?raw=true" alt="קריסי בייביסיטר">
+      </a>
+    </div>
+
+    <div class="game-item">
+      <b>ברבי חדר גיימינג</b>
+      <a href="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_room.png?raw=true" target="_blank">
+        <img src="https://github.com/Avitalice/nostalgy-online-games/blob/main/images/Barbie_room.png?raw=true" alt="ברבי חדר גיימינג">
+      </a>
+    </div>
   </div>
 </body>
 </html>
